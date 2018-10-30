@@ -1,6 +1,10 @@
-describe('test', () => {
-  it('fails if you try to run me in other resolutions than the original', () => {
-    cy.visit('http://localhost:8080');
-    cy.matchScreenshot('testing');
+import { merge } from 'lodash-es';
+
+describe('Preprocessor Reproducer', () => {
+  it('test', () => {
+    expect(merge({ foo: 'bar'}, { baz: 'bar'})).to.deep.equal({
+      foo: 'bar',
+      baz: 'bar'
+    })
   })
-})
+});
