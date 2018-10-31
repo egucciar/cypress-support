@@ -1,7 +1,7 @@
 const json = require('../fixtures/example.json');
 
 function setBaseUrl() {
-  Cypress.config('baseUrl', 'http://localhost:8081');
+  Cypress.config('baseUrl', 'http://localhost:8080');
 }
 
 describe('Local Storage Reproducer', () => {

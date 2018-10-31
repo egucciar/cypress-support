@@ -24,16 +24,21 @@ const store = createStore(creator, enhancer)
 
 function run() {
 
-  for (let i = 0; i < Math.random() * 100; i++) {
-    store.dispatch({
-      type: 'test',
-      test: i
-    })
+  for (let i = 0; i < 100; i++) {
+    setTimeout(() => {
+      store.dispatch({
+        type: 'test',
+        test: i
+      })
+    }, i * 100)
+
   }
 
-  document.body.innerHTML = '<div id="test"></div>'
+  setTimeout(() => {
+    document.body.innerHTML = '<div id="test"></div>'
+  }, 2500)
 
-  for (let i = 0; i < Math.random() * 1000; i++) {
+  for (let i = 0; i < 1000; i++) {
     store.dispatch({
       type: 'test',
       test: i
