@@ -1,4 +1,1 @@
-// import { register } from 'cypress-match-screenshot';
-import { register } from './match-screenshot';
-
-register();
+// Add the support files here
