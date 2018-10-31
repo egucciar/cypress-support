@@ -1,3 +1,5 @@
-import { register } from 'cypress-match-screenshot';
+import {
+    registerShadowCommands
+  } from './shadowDom/shadowCommands';
 
-register();
+registerShadowCommands();

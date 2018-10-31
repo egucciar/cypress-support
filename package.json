@@ -4,12 +4,11 @@
   "description": "snake game ",
   "main": "src/index.js",
   "devDependencies": {
-    "eslint": "^4.17.0",
-    "cypress-match-screenshot": "^0.0.5",
+    "cypress": "^3.1.0",
+    "redux-localstorage": "^0.4.1",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
-    "webpack-dev-server": "^3.1.1",
-    "cypress": "^2.1.0"
+    "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -17,5 +16,9 @@
     "cypress:run": "cypress run"
   },
   "author": "Erica Gucciardo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@updater/cypress-helpers": "^3.0.1",
+    "redux": "^4.0.1"
+  }
 }

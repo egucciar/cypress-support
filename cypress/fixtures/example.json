@@ -1,5 +1,317 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "_id": "5bd236b94b245e0fa3a680a4",
+    "index": 0,
+    "guid": "381c09a6-bd50-4278-a304-a2870a8996a2",
+    "isActive": false,
+    "balance": "$3,354.76",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": "Deborah Grimes",
+    "gender": "female",
+    "company": "NSPIRE",
+    "email": "deborahgrimes@nspire.com",
+    "phone": "+1 (915) 406-3936",
+    "address": "448 Irvington Place, Hasty, Maine, 2013",
+    "about": "Nostrud id ex magna Lorem eu minim aliqua proident. Cupidatat fugiat minim veniam laborum. Deserunt ullamco duis magna ad est qui excepteur dolore ad. Ex ex Lorem ad minim id excepteur ea dolor deserunt tempor cillum.\r\n",
+    "registered": "2016-03-27T09:39:02 +04:00",
+    "latitude": 17.412637,
+    "longitude": -64.651531,
+    "tags": [
+      "proident",
+      "nulla",
+      "deserunt",
+      "eiusmod",
+      "non",
+      "cupidatat",
+      "excepteur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mavis Kent"
+      },
+      {
+        "id": 1,
+        "name": "Marilyn Bullock"
+      },
+      {
+        "id": 2,
+        "name": "Rosa Rojas"
+      }
+    ],
+    "greeting": "Hello, Deborah Grimes! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5bd236b9c3c92f5ba040ceeb",
+    "index": 1,
+    "guid": "64c51303-1a3b-46ec-b18e-5b52bf488649",
+    "isActive": false,
+    "balance": "$2,278.69",
+    "picture": "http://placehold.it/32x32",
+    "age": 35,
+    "eyeColor": "brown",
+    "name": "Pruitt Farmer",
+    "gender": "male",
+    "company": "XYLAR",
+    "email": "pruittfarmer@xylar.com",
+    "phone": "+1 (860) 408-2713",
+    "address": "117 Evans Street, Beaulieu, Michigan, 8441",
+    "about": "Commodo eiusmod ea consequat magna labore esse excepteur aliquip culpa mollit et exercitation elit. Eu officia dolor exercitation laboris aliquip. Sint deserunt proident enim aliqua ipsum reprehenderit laboris ullamco non amet enim. Minim laborum ut tempor occaecat quis dolore eu. Exercitation incididunt veniam ipsum tempor sit reprehenderit qui anim est ullamco proident labore proident.\r\n",
+    "registered": "2014-12-17T08:17:59 +05:00",
+    "latitude": 56.118028,
+    "longitude": -167.124392,
+    "tags": [
+      "duis",
+      "ex",
+      "elit",
+      "aliquip",
+      "anim",
+      "aute",
+      "nostrud"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Davidson Castaneda"
+      },
+      {
+        "id": 1,
+        "name": "Charles Stark"
+      },
+      {
+        "id": 2,
+        "name": "Myra Lancaster"
+      }
+    ],
+    "greeting": "Hello, Pruitt Farmer! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5bd236b950ce5fc4f42936fd",
+    "index": 2,
+    "guid": "cb4458e8-4133-4e10-8321-a115f2b7f1e0",
+    "isActive": false,
+    "balance": "$1,763.04",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "blue",
+    "name": "Norton Melendez",
+    "gender": "male",
+    "company": "BEZAL",
+    "email": "nortonmelendez@bezal.com",
+    "phone": "+1 (879) 443-3737",
+    "address": "548 Charles Place, Whitehaven, Indiana, 1439",
+    "about": "In fugiat nulla elit adipisicing elit in magna pariatur dolor elit amet ea quis pariatur. Laboris do ea cupidatat reprehenderit est eiusmod. Reprehenderit dolore est elit tempor do reprehenderit laboris. Deserunt et in minim quis eu tempor cillum. Fugiat nostrud exercitation irure fugiat occaecat et reprehenderit sunt esse tempor dolor.\r\n",
+    "registered": "2014-06-01T02:12:52 +04:00",
+    "latitude": -63.359061,
+    "longitude": -111.923599,
+    "tags": [
+      "irure",
+      "officia",
+      "eu",
+      "proident",
+      "aliqua",
+      "aliquip",
+      "sit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marcy Wooten"
+      },
+      {
+        "id": 1,
+        "name": "Dunlap Beard"
+      },
+      {
+        "id": 2,
+        "name": "Audrey Pacheco"
+      }
+    ],
+    "greeting": "Hello, Norton Melendez! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5bd236b9cc2e4f8405831e2e",
+    "index": 3,
+    "guid": "a46d472e-0103-40ab-8289-a7095ae79e88",
+    "isActive": true,
+    "balance": "$2,573.19",
+    "picture": "http://placehold.it/32x32",
+    "age": 26,
+    "eyeColor": "blue",
+    "name": "Peggy Finley",
+    "gender": "female",
+    "company": "KYAGORO",
+    "email": "peggyfinley@kyagoro.com",
+    "phone": "+1 (862) 458-3172",
+    "address": "113 Brightwater Avenue, Sharon, North Carolina, 1971",
+    "about": "Enim nostrud laborum cillum ut. Incididunt deserunt minim anim sint amet excepteur quis amet dolor nisi incididunt ipsum. Aliqua anim nulla qui nulla ex et mollit. Non officia consequat commodo quis dolor. Do Lorem nulla laborum anim incididunt enim sit pariatur ex veniam. Pariatur et do non esse ipsum irure reprehenderit consequat minim est cillum irure et enim.\r\n",
+    "registered": "2018-05-24T04:08:32 +04:00",
+    "latitude": 46.315249,
+    "longitude": 10.820023,
+    "tags": [
+      "ea",
+      "qui",
+      "laborum",
+      "cupidatat",
+      "voluptate",
+      "quis",
+      "commodo"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Russo Mccall"
+      },
+      {
+        "id": 1,
+        "name": "Weiss Fulton"
+      },
+      {
+        "id": 2,
+        "name": "Le Wood"
+      }
+    ],
+    "greeting": "Hello, Peggy Finley! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "5bd236b9725c66e782303094",
+    "index": 4,
+    "guid": "6302f97a-13f4-4d8c-97f6-65582e60d525",
+    "isActive": false,
+    "balance": "$1,155.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "green",
+    "name": "Tillman Fitzgerald",
+    "gender": "male",
+    "company": "GEEKWAGON",
+    "email": "tillmanfitzgerald@geekwagon.com",
+    "phone": "+1 (912) 458-3219",
+    "address": "443 Grace Court, Singer, Kentucky, 6489",
+    "about": "Fugiat in eu laboris aliqua esse mollit minim anim minim. Ut elit ad aliquip velit reprehenderit labore nulla consectetur non do eiusmod aute. Nostrud dolore nisi ea nostrud ea. Anim officia incididunt labore consequat excepteur eu. Consectetur laboris labore officia tempor elit officia occaecat ullamco consectetur amet ex sunt. Anim cillum ipsum est irure veniam ut cupidatat ullamco laborum.\r\n",
+    "registered": "2014-06-13T05:08:32 +04:00",
+    "latitude": 74.355843,
+    "longitude": -85.62849,
+    "tags": [
+      "amet",
+      "in",
+      "tempor",
+      "incididunt",
+      "quis",
+      "enim",
+      "qui"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alyssa Moran"
+      },
+      {
+        "id": 1,
+        "name": "Ellis Hensley"
+      },
+      {
+        "id": 2,
+        "name": "Lessie Johnston"
+      }
+    ],
+    "greeting": "Hello, Tillman Fitzgerald! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5bd236b9b7360fb44d9fa7d3",
+    "index": 5,
+    "guid": "7987cc61-b4ac-4a99-823b-66552c38e1d3",
+    "isActive": false,
+    "balance": "$3,855.48",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "green",
+    "name": "Frye English",
+    "gender": "male",
+    "company": "XLEEN",
+    "email": "fryeenglish@xleen.com",
+    "phone": "+1 (802) 430-3715",
+    "address": "622 Campus Place, Tyro, West Virginia, 8614",
+    "about": "Quis anim et velit Lorem reprehenderit fugiat anim consectetur Lorem minim proident proident Lorem cupidatat. Dolore ea ut adipisicing magna ea sunt ad reprehenderit quis amet cillum aute. Occaecat consectetur mollit sit ipsum pariatur sit adipisicing dolor nostrud est anim commodo sint. Sunt non ex quis minim sunt consectetur anim.\r\n",
+    "registered": "2014-04-18T10:39:39 +04:00",
+    "latitude": 55.97438,
+    "longitude": -92.334317,
+    "tags": [
+      "excepteur",
+      "minim",
+      "ipsum",
+      "anim",
+      "irure",
+      "duis",
+      "nisi"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Olivia Russo"
+      },
+      {
+        "id": 1,
+        "name": "Irma Golden"
+      },
+      {
+        "id": 2,
+        "name": "Pace Hickman"
+      }
+    ],
+    "greeting": "Hello, Frye English! You have 4 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5bd236b915877ea824cba2fe",
+    "index": 6,
+    "guid": "1be82845-9a29-4e53-aa3e-23639f372c4d",
+    "isActive": true,
+    "balance": "$2,609.14",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "green",
+    "name": "Krystal Morin",
+    "gender": "female",
+    "company": "UNISURE",
+    "email": "krystalmorin@unisure.com",
+    "phone": "+1 (975) 492-2398",
+    "address": "465 Lorimer Street, Belfair, Maryland, 3878",
+    "about": "Proident labore eu et nostrud elit velit nulla et aliquip ea. Exercitation ex mollit cillum excepteur velit mollit amet cupidatat reprehenderit in fugiat consequat ad. Est et do voluptate elit magna pariatur reprehenderit. Consequat minim ea nostrud minim consequat Lorem amet ut. Do ea minim ipsum ad quis. Non commodo tempor sit minim amet. Ullamco anim deserunt cillum laboris culpa dolore reprehenderit sunt reprehenderit.\r\n",
+    "registered": "2015-10-17T12:40:07 +04:00",
+    "latitude": -17.674495,
+    "longitude": -48.097272,
+    "tags": [
+      "voluptate",
+      "ea",
+      "qui",
+      "nisi",
+      "ut",
+      "proident",
+      "elit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Christina Wade"
+      },
+      {
+        "id": 1,
+        "name": "House Bartlett"
+      },
+      {
+        "id": 2,
+        "name": "Young Delacruz"
+      }
+    ],
+    "greeting": "Hello, Krystal Morin! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
