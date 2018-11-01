@@ -18,7 +18,6 @@
   "author": "Erica Gucciardo",
   "license": "MIT",
   "dependencies": {
-    "@updater/cypress-helpers": "^3.0.1",
     "redux": "^4.0.1"
   }
 }
